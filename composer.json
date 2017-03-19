@@ -1,5 +1,5 @@
 {
-  "name": "lnc/dropshipping_cz-api-client",
+  "name": "lnc/dropshipping_cz-php-api-client",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
