@@ -1,0 +1,28 @@
+{
+  "name": "lnc/dropshipping_cz-api-client",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php-http/httplug": "*",
+    "php-http/client-common": "*",
+    "php-http/client-implementation": "*",
+    "php-http/message": "*",
+    "php-http/message-factory": "*",
+    "php-http/discovery": "*",
+    "guzzlehttp/psr7": "*",
+    "php-http/guzzle6-adapter": "*"
+  },
+  "authors": [
+    {
+      "name": "Jan Cinert",
+      "email": "jan.cinert@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LNC\\DropshippingCZApiClient\\": [
+        "src/"
+      ]
+    }
+  }
+}
